@@ -64,11 +64,11 @@ if player_number == 2:
 
 count = 0
 if val_range == 11:
-    res_count = 5
+    res_count = 4
 if val_range == 101:
-    res_count = 11
+    res_count = 7
 if val_range == 1001:
-    res_count = 17
+    res_count = 11
 
 while count != res_count:
     if val_in > hidden_numer:
